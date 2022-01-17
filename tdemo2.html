@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="config/demo2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="body">
+        <div class="items">
+            <div id="load" class="item" onclick="clickload()">登录</div>
+            <div id="sign" class="em" onclick="clicksign()">注册</div>
+        </div>
+        <div class="context">
+            <div class="con" id="conLoad">
+                <p>账号</p>
+                <input class="inp" type="text" placeholder="username">
+                <p>密码</p>
+                <input class="inp" type="password" placeholder="password">
+                <br />
+                <input class="subp" id="lSub" type="submit" value="登录">
+            </div>
+            <div class="con" id="conSign" style="display :none">
+                <p>邮箱</p>
+                <input class="inp" id="email" type="text" placeholder="email">
+                <p>密码</p>
+                <input class="inp" id="password" type="password" placeholder="password">
+                <p>确定密码</p>
+                <input class="inp" id="repassword" type="password" placeholder="password">
+                <br />
+                <input class="subp" id="sSub" type="submit" value="注册">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="config/demo2.js"></script>
+</body>
+
+</html>
